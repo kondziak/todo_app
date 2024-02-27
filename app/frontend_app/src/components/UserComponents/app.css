@@ -1,0 +1,54 @@
+  .table {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .tasks_table {
+    width: 70%;
+    min-height: 60vh;
+    max-height: 90vh;
+    background-color: rgb(189, 142, 80);
+    border: 5px solid white;
+    border-radius: 2px;
+    margin: 15px 0 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .tasks_table > div {
+    margin: 10px;
+  }
+
+  .user_box {
+    background-color: rgb(69, 46, 151);
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 1px solid rgb(40, 24, 99);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3)
+  }
+  
+  .user_box > div {
+    padding: 10px 0px;
+  }
+
+  .get_tasks_button {
+    background-color: rgb(82, 55, 180);
+    border: 1px solid rgb(40, 24, 99);
+    border-radius: 3px;
+    margin-left: 10px;
+    color: white;
+    font-size: calc(4px + 2vmin);
+  }
+
+  .logout {
+    text-decoration-color: aliceblue;
+    margin: 10px 10px 10px 20px;
+    cursor: pointer;
+  }
